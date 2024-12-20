@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="index.js" defer></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>GR_PRJ_Counter</title>
   </head>
   <header>Counter</header>
   <body>
-    <div class="container">
-      <div id="counter">0</div>
-      <div class="buttons">
-        <button id="decrease">-</button>
-        <button id="increase">+</button>
-        <button id="stop">Stop</button>
+    <div id="root">
+      <div class="container">
+        <div id="counter"></div>
+        <div class="buttons">
+          <button id="decrease" type="button">-</button>
+          <button id="increase" type="button">+</button>
+          <button id="stop" type="button">Stop</button>
+        </div>
       </div>
     </div>
   </body>
